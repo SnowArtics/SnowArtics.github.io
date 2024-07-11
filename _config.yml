@@ -14,16 +14,16 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 설원 # the main title
+title: Snow # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: 'SeolWon Yoon [윤설원]<br>Dept. of Software, Gachon Univ.' # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  설원의 블로그입니다.
+  SeolWon(SeolWonYoon)'s personal homepage
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://seolwon.com"
 
 github:
   username: SnowArtics # change to your github username
@@ -38,7 +38,7 @@ social:
   email: deany0131@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    # https://twitter.com/username # change to your twitter homepage
     - https://github.com/SnowArtics # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -96,7 +96,7 @@ theme_mode: dark
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: '/assets/img/avatar.jpg'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -114,7 +114,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: SnowArtics/SnowArtics.github.io # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+    issue_term: pathname # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
