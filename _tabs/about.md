@@ -7,7 +7,7 @@ order: 4
 
 ## **Profile**
 
-![profile-image](/seolwon.jpg){: w="300" h="300" .normal}
+<!--![profile-image](/seolwon.jpg){: w="300" h="300" .normal}-->
 
 **Name**: SeolWon Yoon &#124; 윤설원<br>
 **Major**: Dept. of Software, Gachon Univ. &#124; 가천대학교, 소프트웨어학과<br>
