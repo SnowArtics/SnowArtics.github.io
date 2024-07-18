@@ -79,22 +79,22 @@ layout: compress
 
     {% include_cached search-loader.html lang=lang %}
 
-    <div id="discord-widget">
-      <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-        new Crate({
+    <div id="discord-widget"></div>
+      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const crate = new Crate({
             server: '1262687654902763641', // BlogServer
             channel: '1263406671036682286', // #오픈채팅방
             location: [-100, 'right']
-        })
-  
-        // Display for 2 seconds + custom avatar
-        crate.notify({
-          content: '`안녕하세요 :)`',
-          timeout: 10000,
-        })
-  
-      </script>
-    </div>
+          });
 
+          // Display for 10 seconds + custom avatar
+          crate.notify({
+            content: '`안녕하세요 :)`',
+            timeout: 10000,
+          });
+        });
+      </script>
   </body>  
 </html>
