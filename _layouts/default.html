@@ -77,10 +77,9 @@ layout: compress
     <!-- JavaScripts -->
     {% include js-selector.html lang=lang %}
 
-    {% include_cached search-loader.html lang=lang %}
-
-    <div id="discord-widget"></div>
-      <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer></script>
+    {% include_cached search-loader.html lang=lang %}      
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer></script>
       <script>
         document.addEventListener('DOMContentLoaded', function() {
           const crate = new Crate({
@@ -95,6 +94,5 @@ layout: compress
             timeout: 10000,
           });
         });
-      </script>
-  </body>  
+  </script>
 </html>
