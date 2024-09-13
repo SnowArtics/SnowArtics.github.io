@@ -2,7 +2,7 @@
 title: "[UE5] Animation Blueprint의 Thread-UnSafe Warning 해결하기"
 author: seolwon
 date: 2024-09-13 16:00:00 +0900
-media_subpath: \assets\img\posts\2024-09-13-[UE5]-Animation-Blue-Print에서-Property-Access하기
+media_subpath: /assets/img/posts/2024-09-13-[UE5]-Animation-Blue-Print에서-Property-Access하기/
 categories: [UnrealEngine5, Blueprint]
 tags: [UnrealEngine5, UE5, AnimationBlueprint, Thread-Safe, Warning]
 ---
